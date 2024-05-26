@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #CCCCFF;
+}
+
+.swapBox {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px;
+  background-color: #BF40BF;
+  color: #fff;
+}
+
+.button:hover {
+  background-color: #BF40BF;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  background-color: #BDB5D5;
+  color: white;
+}
+
+.logo {
+  height: 60px;
+}
+
+.title {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.walletButton {
+  background-color: #fff;
+  color: #BF40BF;
+  border: 1px solid #3f51b5;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
